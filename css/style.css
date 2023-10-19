@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.container {
+    background: rgba(244, 173, 217, 0.9) url("https://i.postimg.cc/rFcbKX5p/Python-Programming-for-Beginners-cover.jpg") no-repeat center center;
+    background-size: contain;
+    background-blend-mode: luminosity;
+    height: 100vh;
+}
+:is(h2, #box1) {
+    background-color: rgba(76, 2, 71, 0.8);
+    width: fit-content;
+    text-shadow: .2vw .4vw .1vw rgba(118, 45, 109, 0.7);
+}
+#box1 {
+    position: relative;
+    left: 78px;
+    top: 12px;
+    border: 2px solid;
+    padding-inline: 12px;
+}
+#box2 {
+    position: sticky;
+    top: 0;
+    border-style: dashed;
+    border: 2px dotted rgb(32, 2, 28);
+    background-color: rgba(57, 10, 59, 0.8);
+}
+#box3 {
+    position: relative;
+    border: 2px dotted rgb(87, 11, 75);
+    background-color: rgba(51, 10, 59, 0.8);
+}
+#posAbsolute {
+    position: absolute;  
+    right: 0;
+    background-color: rgba(248, 141, 241, 0.8);
+    box-shadow: inset 1vw .3vw 1vw purple;
+}
+p {
+    font: size 25px;
+    font-style: italics;
+    color: black;
+}
